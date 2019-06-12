@@ -1,0 +1,27 @@
+﻿# __<Titel>__
+__Beginn:__ dd.MM.yyyy
+__Geplantes Ende:__ dd.MM.yyyy
+__Darauf aufbauende Bachelorarbeit geplant:__ ja / nein / offen (bitte nichtzutreffendes löschen)
+
+__Praxiskontext__
+<Schildern Sie in 1-2 Absätzen den Kontext, in dem Ihr Praxisprojekt stattfindet.
+1. Der Kontext kann eine Firma sein, in der Sie ein Projekt bearbeiten. Dann stellen Sie KURZ die Firma vor und beschreiben das Projekt (Ziel des Gesamtprojekts, zeitlicher Rahmen des Gesamtprojekts, weitere Beteiligte außer Ihnen)
+2. Der Kontext kann auch ein eigenes Projekt, z.B. als Startup, das Sie gegründet haben, oder als Open Source Projekt, das Sie initiiert haben. Dann gilt analog, was unter (1) steht.
+3. Der Kontext kann auch ein Forschungs-/Infrastrukturprojekt an der TH Köln sein. In diesem Fall beschreiben Sie dieses Projekt (Ziel des Gesamtprojekts, zeitlicher Rahmen des Gesamtprojekts, weitere Beteiligte außer Ihnen)
+4. Der Kontext kann auch die Vorbereitung einer Bachelorarbeit (BA) sein. In diesem Fall bilden PP und BA zusammen eine Art von informellem Forschungsvorhaben. Beschreiben Sie das Ziel dieses Vorhabens und ggfs. weitere Beteiligte (z.B. weitere Studierende, die an anderen Aspekten dieses Themas arbeiten)>
+
+__Ziel Ihres Praxisprojekts__
+<Formulieren Sie kurz (max. 3 Sätze), welches Ziel Ihr Praxisprojekt hat, innerhalb des oben beschriebenen Kontexts. Achten Sie darauf, dass die Formulierung so ist, dass Ihr PP daran gemessen werden kann – anhand dieses Ziels werde ich bewerten, ob das PP erfolgreich war (40% der Note).>
+
+__Projektplan__
+<Legen Sie hier einen informellen Projektplan in max. 5 - 10 Spiegelstrichen an, in folgender Form: 
+* Bis <ungefähres Datum>: Bestimmung der nötigen API-Parameter 
+* Bis <ungefähres Datum>: Implementierung des REST-API
+* Bis <ungefähres Datum>: Systemtest des REST-API
+
+Ungefähres Datum wäre so etwas wie „Anfang März“ oder „5.3.“ oder „KW 12“. Ich halte es nicht für schlimm, wenn der Plan sich verschiebt, aber Sie sollten von Anfang an schauen, was Sie wann tun wollen.> 
+
+__Externer Kooperationspartner__
+<Wenn Sie die Arbeit in Zusammenarbeit mit einer Firma schreiben, nennen Sie hier bitte 
+* die Firma mit den wesentlichen Kontaktdaten
+* einen Hauptansprechpartner, der innerhalb der Firma für Ihre Arbeit zuständig ist.>
