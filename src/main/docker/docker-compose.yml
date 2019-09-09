@@ -1,0 +1,12 @@
+version: "3.6"
+
+services:
+
+  proposal-service:
+    image: docker.nexus.archi-lab.io/archilab/${IMAGE}:${TAG}
+    networks:
+      - prox
+
+networks:
+  prox:
+    external: true
