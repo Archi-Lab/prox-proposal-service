@@ -44,3 +44,4 @@ For the necessary steps please look in [Run/Debug in IntelliJ IDEA](https://gith
 This service is currently developed by
 
 - < Add your name here>
+
