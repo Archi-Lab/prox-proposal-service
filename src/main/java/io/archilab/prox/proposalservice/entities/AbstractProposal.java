@@ -5,6 +5,7 @@ import lombok.Data;
 import lombok.Getter;
 import lombok.Setter;
 import javax.persistence.Basic;
+import javax.persistence.Column;
 import javax.persistence.Id;
 import javax.persistence.MappedSuperclass;
 import java.util.UUID;
@@ -18,6 +19,7 @@ public class AbstractProposal {
 
   @Basic
   @Setter
+  @Column(name = "CONTENT", length = 5000)
   protected String content;
 
   @Basic
