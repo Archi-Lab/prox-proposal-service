@@ -7,6 +7,4 @@ import java.util.UUID;
 
 public interface ArchivedProposalRepository
     extends PagingAndSortingRepository<ArchivedProposal, UUID> {
-  List<ArchivedProposal> findByProjectIdAndStudentIdOrderByVersionAsc(UUID projectId,
-      UUID studentId);
 }
