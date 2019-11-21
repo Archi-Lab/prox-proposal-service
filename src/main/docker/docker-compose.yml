@@ -2,7 +2,7 @@ version: "3.6"
 
 services:
   proposal-service:
-    image: ${REPOSITORY}/${IMAGE}:${TAG}
+    image: docker.nexus.archi-lab.io/archilab/${IMAGE}:${TAG}
     networks:
       - prox
 
