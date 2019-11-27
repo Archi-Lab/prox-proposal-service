@@ -1,3 +1,6 @@
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**
+!**/src/test/**
 
 # Created by https://www.gitignore.io/api/node,maven,eclipse,intellij+all,visualstudiocode
 # Edit at https://www.gitignore.io/?templates=node,maven,eclipse,intellij+all,visualstudiocode
@@ -167,7 +170,6 @@ release.properties
 dependency-reduced-pom.xml
 buildNumber.properties
 .mvn/timing.properties
-.mvn/wrapper/maven-wrapper.jar
 .flattened-pom.xml
 
 ### Node ###
