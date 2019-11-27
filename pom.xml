@@ -10,7 +10,7 @@
 
     <groupId>io.archi-lab.prox</groupId>
     <artifactId>prox-proposal-service</artifactId>
-    <version>${revision}-${changelist}</version>
+    <version>${revision}${changelist}</version>
 
     <name>prox-proposal-service</name>
     <description>Prox Proposal Service</description>
