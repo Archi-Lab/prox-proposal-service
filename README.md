@@ -3,7 +3,7 @@
 Add here the description...
 
 ## Installation
-After a `git clone` the following command must be executed once to initialize the projects.
+After a `git clone` or download the project the following command must be executed once to initialize the projects.
 
 Windows (CMD/PowerShell)
 ```posh
