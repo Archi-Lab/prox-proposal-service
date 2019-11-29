@@ -9,6 +9,7 @@ import org.keycloak.adapters.springsecurity.management.HttpSessionManager;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean;
 import org.springframework.context.annotation.Bean;
+import org.springframework.http.HttpMethod;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.core.authority.mapping.SimpleAuthorityMapper;
@@ -47,7 +48,12 @@ public class SecurityConfig extends KeycloakWebSecurityConfigurerAdapter {
   @Override
   protected void configure(HttpSecurity http) throws Exception {
     super.configure(http);
-    http.csrf().disable().authorizeRequests().antMatchers("/proposals/**").permitAll()
-        .antMatchers("/archivedProposals/**").permitAll().anyRequest().denyAll();
+    http.csrf().disable().authorizeRequests()
+            .antMatchers(HttpMethod.GET,"/proposals**").permitAll()
+            .antMatchers(HttpMethod.GET,"/proposals/**").permitAll()
+            .antMatchers(HttpMethod.POST, "/proposals/**").hasAnyRole("student", "professor")
+            .antMatchers(HttpMethod.PATCH, "/proposals/**").hasAnyRole("student", "professor")
+            .antMatchers(HttpMethod.DELETE, "/proposals/**").hasAnyRole("student", "professor")
+            .anyRequest().denyAll();
   }
 }
