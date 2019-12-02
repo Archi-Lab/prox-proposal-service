@@ -9,5 +9,7 @@ import java.util.UUID;
 @RepositoryRestResource(collectionResourceRel = "proposals", path = "proposals")
 public interface ProposalRepository extends PagingAndSortingRepository<Proposal, UUID> {
   List<Proposal> findByProjectId(UUID projectId);
+  List<Proposal> findByProjectIdAndStudentId(UUID projectId, UUID studentId);
+  List<Proposal> findByProjectIdAndSupervisorPermitsPublishIsTrueAndStudentPermitsPublishIsTrue(UUID projectId);
 
 }
